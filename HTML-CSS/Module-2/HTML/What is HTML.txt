@@ -1,0 +1,6 @@
+what is html?
+
+=>html stand for hypertext markup language
+=>html first time relesed in 1986 by tim berner lee.
+=>html is markup language i.e used to user browsers.
+=>hypertext meanse redirect one page to another page
