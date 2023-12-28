@@ -1,0 +1,50 @@
+/* What is the rule set? */
+/* 
+    A CSS ruleset is various affirmations to various pieces or elements of the document. The objective is to apply a bunch of properties for certain distinct qualities to a solitary, or a particular arrangement of components in the connected HTML page.
+    The “.” in the beginning indicates that the rule created will be a class, also “container” indicates the name of the selector. Similarly “first-child” indicates the pseudo-class, and elements inside curly brackets are elements of a declaration block, which contains some CSS properties and their corresponding values. The CSS ruleset will be applied when the selector name is called on the main HTML page.
+*/
+/* 
+    <!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>Rulesets in CSS</title> 
+	<style> 
+		h1 { 
+			color: green; 
+		} 
+		-- Selector -- 
+            p:first-child{ 
+                
+                -- Declaration-block --
+                background-color: green; 
+                color: white; 
+                font-size: 15px; 
+                border-radius: 50px		 
+                ; 
+                text-transform: uppercase				 
+                ; 
+                font-weight: bold; 
+            } 
+
+            body { 
+                text-align: center; 
+            } 
+        </style> 
+    </head> 
+
+    <body> 
+        <div> 
+            <p>Welcome To Largest Computer Science portal</p> 
+
+            <h1>GeeksforGeeks</h1> 
+            <h2>CSS Rulesets</h2> 
+
+            <p>GeeksforGeeks </p> 
+
+        </div> 
+    </body> 
+    </html>
+
+
+*/

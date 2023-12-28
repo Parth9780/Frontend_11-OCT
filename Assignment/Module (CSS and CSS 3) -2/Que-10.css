@@ -1,0 +1,18 @@
+/* Why should background and color be used as separate properties? */
+/* 
+    color is referring to the text color in that element.
+
+    background-color refers to the background color
+
+    background is shorthand to combine many background tags into one line.
+
+*/
+.bc {
+    background: yellow;
+    background-color: green;
+  }
+  
+  .bc2 {
+    background-color: green;
+    background: yellow;
+  }

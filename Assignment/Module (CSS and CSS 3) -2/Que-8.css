@@ -1,0 +1,22 @@
+/* What is the use of the background-position property? */
+
+/*  The background-position property sets the starting position of a background image.
+    values:-
+        left top
+        left center
+        left bottom
+        right top
+        right center
+        right bottom
+        center top
+        center center
+        center bottom
+
+*/
+
+body {
+    background-image: url('images/th.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+  }
