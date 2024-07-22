@@ -1,0 +1,23 @@
+/* How to maintain the CSS specifications? */
+/* 
+    If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
+
+    Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
+
+*/
+/* 
+    In this example, we have used the "p" element as selector, and specified a red color for this element. The text will be red:
+    <html>
+        <head>
+            <style>
+                 p {color: red;}
+            </style>
+        </head>
+        <body>
+
+            <p>Hello World!</p>
+
+        </body>
+    </html>
+
+*/

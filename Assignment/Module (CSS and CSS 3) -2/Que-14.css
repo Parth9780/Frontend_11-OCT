@@ -1,0 +1,22 @@
+/* What is embedded style sheets? */
+/* 
+    Embedded style sheets allow you to define styles for the whole HTML document in one place.
+    Embedded style sheets refer to when you embed style sheet information into an HTML document using the <style> element. You do this by embedding the style sheet information within <style></style> tags in the head of your document.
+
+*/
+/* 
+    <style>
+        p {
+                font-family: georgia, serif; 
+                font-size: x-small;
+            }
+        hr {
+                color: #ff9900; 
+                height: 1px; 
+            }
+        a:hover {
+                color: #ff0000; 
+                text-decoration: none;
+            }
+    </style>
+*/

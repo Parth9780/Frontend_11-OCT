@@ -1,0 +1,20 @@
+/* What are the media types allowed by CSS? */
+/* 
+    The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+
+    Media queries in CSS3 extended the CSS2 media types idea: Instead of looking for a type of device, they look at the capability of the device.
+
+    Media queries can be used to check many things, such as:
+
+    width and height of the viewport
+    orientation of the viewport (landscape or portrait)
+    resolution
+
+*/
+/*
+    Media Query Syntax : 
+    
+    @media not|only mediatype and (media feature) and (media feature) {
+    CSS-Code;
+    }
+*/

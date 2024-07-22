@@ -1,0 +1,32 @@
+=>html is a case-insenstive markup language
+    ex: <a href="http://www.onlinwportfolio.byethost14
+
+=>html file extention is .html or .htm
+=>html structures start with <!DOCTYPE html>
+
+what is tag : tag provides inside of <p> angular brackets and it is used to provide a structure i.e
+pragraph, div, form etc.</p>
+
+=>types of tag
+    a) paired tag
+    b) non-paired tag
+    c) deprecated tag
+
+a) paired tag => which tag are start and must be closed i.e called paired tag.
+    ex: <p>Hey parth</p>
+    <iframe></iframe>
+    <table></table>
+    <form></form>
+
+b) non-paired tag => which tag are start and not need to be closed i.e called non-paired tag.
+    ex:<br>
+        <p>
+        <input>
+        <link>
+        <hr>
+        <img>
+        <meta>
+
+c) deprecated tag : officialy w3c(world wide web cosortium) organization removed tage from html list i.e called deprecated tag
+    ex: <center>
+    

@@ -1,0 +1,15 @@
+/* What do you understand by CSS opacity? */
+/* 
+    The opacity property sets the opacity level for an element.
+
+    The opacity-level describes the transparency-level, where 1 is not transparent at all, 0.5 is 50% see-through, and 0 is completely transparent.
+
+*/
+div {
+    opacity: 0.5;
+  }
+
+/* 
+  When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read. If you do not want to apply opacity to child elements, use RGBA color values instead
+
+*/

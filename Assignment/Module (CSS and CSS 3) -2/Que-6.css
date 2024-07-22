@@ -1,0 +1,7 @@
+/*  How can the background color of an element be changed? */
+/* 
+    The background-color property sets the background color of an element.
+
+    The background of an element is the total size of the element, including padding and border
+*/
+body {background-color: #92a8d1;}

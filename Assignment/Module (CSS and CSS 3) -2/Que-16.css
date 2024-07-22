@@ -1,0 +1,9 @@
+/* What are the advantages and disadvantages of using external style sheets? */
+/* 
+    The advantages of External Style Sheets are: - Using them, the styles of multiple documents can be controlled from one file. - Classes can be created for use on multiple HTML element types in many documents. - In complex situations, selector and grouping methods can be used to apply styles.
+*/
+/* 
+    - In order to import style information for each document, an extra download is needed.
+    - Until the external style sheet is loaded, it may not be possible to render the document.
+    - For small number of style definitions, it is not viable.
+*/
