@@ -1,0 +1,39 @@
+{
+  "add-data": [
+    {
+      "id": "9f1f"
+    },
+    {
+      "id": "33e4",
+      "name": "parth kavathiya",
+      "email": "pp7810559@gmail.com",
+      "phone": "06354287550",
+      "address": "shapar rajkot",
+      "pincode": "360024"
+    },
+    {
+      "id": "5bd8",
+      "name": "Rohit Sitapara",
+      "email": "rohit@gmail.com",
+      "phone": "06354287550",
+      "address": "shapar rajkot",
+      "pincode": "360024"
+    },
+    {
+      "id": "d1c9",
+      "name": "dilipbhai kavathiya",
+      "email": "dilip022@gmail.com",
+      "phone": "09106174549",
+      "address": "shapar rajkot",
+      "pincode": "360024"
+    },
+    {
+      "id": "3811",
+      "name": "parth kavathiya",
+      "email": "pp7810559@gmail.com",
+      "phone": "06354287550",
+      "address": "shapar rajkot",
+      "pincode": "360024"
+    }
+  ]
+}
