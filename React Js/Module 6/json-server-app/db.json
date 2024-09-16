@@ -1,0 +1,28 @@
+{
+  "add_data": [
+    {
+      "name": "Parth Kavathiya",
+      "phone": "6354287550",
+      "email": "pp7810559@gmail.com",
+      "address": "pp7810559@gmail.com",
+      "date": "2024-09-18",
+      "id": "7fb6"
+    },
+    {
+      "name": "Rohit",
+      "phone": "7600472916",
+      "email": "rohit@gimal.com",
+      "address": "rohit@gimal.com",
+      "date": "2024-09-16",
+      "id": "5898"
+    },
+    {
+      "id": "aab4",
+      "name": "Ravi Kumar",
+      "phone": "9603540816",
+      "email": "ravi@gimal.com",
+      "address": "jetpur, rajkot 360321",
+      "date": "2024-09-16"
+    }
+  ]
+}
