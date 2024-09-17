@@ -1,0 +1,5 @@
+1.What is JSON
+
+- JSON (JavaScript Object Notation) is a lightweight format for storing and transporting data. It's a text-based format that's easy for humans to read and write, and easy for machines to parse and generate.
+
+- JSON is a language-independent data format. It was derived from JavaScript, but many modern programming languages include code to generate and parse JSON-format data. JSON filenames use the extension .`json`.

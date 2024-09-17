@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product List</title>
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        .product {
+            display: flex;
+            align-items: center;
+        }
+
+        .product img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Product List</h1>
+    <ul id="product-list"></ul>
+
+    <script>
+        fetch('https://fakestoreapi.com/products')
+            .then(response => response.json())
+            .then(data => {
+                const productList = document.getElementById('product-list');
+                data.forEach(product => {
+                    const listItem = document.createElement('li');
+                    listItem.className = 'product';
+                    const img = document.createElement('img');
+                    img.src = product.image;
+                    const productName = document.createElement('span');
+                    productName.textContent = product.title;
+                    const productPrice = document.createElement('span');
+                    productPrice.textContent = `$${product.price}`;
+                    listItem.appendChild(img);
+                    listItem.appendChild(productName);
+                    listItem.appendChild(productPrice);
+                    productList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+
+</html>

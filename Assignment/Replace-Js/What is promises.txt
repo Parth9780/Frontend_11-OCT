@@ -1,0 +1,3 @@
+2.What is promises
+
+-A Promise is a result object that is used to handle asynchronous operations in JavaScript. It represents a value that may not be available yet, but will be resolved at some point in the future. Promises are used to handle asynchronous operations in a more manageable way, allowing developers to write more linear, synchronous-looking code.
